@@ -1,0 +1,128 @@
+.container{
+  width: 650px;
+  height: 450px;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+h2, h3, p{
+  margin: 0;
+}
+
+body{
+  background-color:lightgray;
+  padding-left: 300px;
+  padding-top: 50px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#top{
+  width: 100%;
+  height: 45%;
+  overflow: hidden;
+}
+
+#bottom{
+  display: flex;
+  width: 100%;
+  height: 55%;
+}
+
+.price{
+  display: flex;
+  margin-bottom: 4%;
+}
+
+.box-1{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding-left: 35px;
+  padding-top: 40px;
+}
+
+.box-2{
+  width: 50%;
+  height: 100%;
+  background-color: #2cb3b3;
+  padding: 35px;
+  color: white;
+}
+
+.box-3{
+  width: 50%;
+  height: 100%;
+  background-color: #4db9b9;
+  padding: 35px;
+  color: white;
+}
+
+.box-1 h2{
+  color: #2cb3b3;
+  margin-bottom: 4%;
+  font-weight: 800;
+}
+
+.box-1 h3{
+  color: #b5d32f;
+  margin-bottom: 2%;
+}
+
+.box-1 p{
+  color: gray;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.box-2 p{
+  font-weight: 300;
+}
+
+.box-3 p{
+  font-weight: 300;
+  line-height: 130%;
+  opacity: 85%;
+}
+
+.box-2 h3{
+  margin-bottom: 7%;
+}
+
+.box-3 h3{
+  margin-bottom: 7%;
+}
+
+#money{
+  font-size: 150%;
+  font-weight: 700;
+}
+
+#duration{
+  font-weight: 200;
+  padding: 1.5%;
+  padding-left: 6%;
+  opacity: 80%;
+}
+
+#btn-1{
+  color: white;
+  background-color: #b5d32f;
+  border: 0;
+  width: 100%;
+  height: 17%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 17%;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+
+#btn-1:hover{
+  cursor: pointer;
+  background-color: #bbd643;
+  transform: scale(1.05);
+  box-shadow: 1px 2px 6px -1px rgba(0, 0, 0, 0.25);
+}
